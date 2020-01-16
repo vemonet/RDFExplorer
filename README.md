@@ -27,6 +27,22 @@ General config file: `RDFExplorer/public/scripts/services/settings.js`
 
 To change the query execution behavior check: `RDFExplorer/public/scripts/services/property-graph.js`
 
+## Docker
+
+### Build
+
+```bash
+docker build -t rdfexplorer .
+```
+
+### Run
+
+```bash
+docker run --rm -it -p 8081:8080 rdfexplorer
+```
+
+> Access on http://localhost:8081/
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
